@@ -1,5 +1,5 @@
 function showTimer(){
-	var time = prompt('Enter your timer in the form: "hr: min: sec"');
+	var time = prompt('Enter the timer in the form: "hr: min: sec"');
 
 	timer_div = document.getElementById('timer_div');
 	timer_div.innerHTML = time;
